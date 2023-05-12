@@ -2,6 +2,7 @@ import './App.css';
 import CounterBox from './components/CounterBox';
 import ExCounterBox from './components/ExCounterBox';
 import CounterNumber from './components/CounterNumber';
+import MemoComp from './components/MemoComp';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <CounterBox />
       <ExCounterBox />
       <CounterNumber />
+      <MemoComp />
     </div>
   );
 }
