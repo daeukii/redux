@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { addMemo } from '../modules/memo';
+import { addMemo, deleteMemo } from '../modules/memo';
 
 export default function MemoComp() {
     const memo = useSelector((state) => (state.memo));
